@@ -168,29 +168,29 @@ main{
 }
 .experience-info{
   width: 50%;
-/* margin-top: 20px; */
-padding: 0 0;
+  /* margin-top: 20px; */
+  padding: 0 0;
 
 }
 .experience{
-
+  
   
 }
 
 .experience h2{
   border-left:3px solid #FF900E;
   padding-left: 20px;
-
+  
 }
 .experience p{
-
+  
 }
 .experience-details{
-border-radius: 8px;
-background: #FFF;
-box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
-padding: 30px 40px;
-margin-top: 20px;
+  border-radius: 8px;
+  background: #FFF;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+  padding: 30px 40px;
+  margin-top: 20px;
 }
 .experience-details h6{
   color:  #131313;
@@ -205,20 +205,19 @@ margin-top: 20px;
   line-height: 26px;
 }
 .experience-banner{
-width: 50%;
+  width: 50%;
 }
 .experience-banner img{
   width: 100%;
 }
-
-
-
-
-
-
-
-
-
-
 /* love-and-enjoy */
-
+/* some-fact */
+.some-fact{
+  display:flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.some{
+ width: 90%;
+}
+/* some-fact */
