@@ -61,13 +61,13 @@ nav {
   font-weight: 700;
   margin: 0;
 }
-.header-text p {
+.common-text{
   color: #727272;
-  text-align: center;
+  /* text-align: center; */
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
-  margin: 30px 0;
+  margin: 25px 0 30px 0;
 }
 .btn{
   color: #fff;
@@ -82,7 +82,7 @@ nav {
   border: none;
   transition: 0.3s;
 }
-.header-text a:hover {
+.btn:hover {
   color: #ff900e;
   background: #fff;
 }
@@ -93,6 +93,7 @@ nav {
   width: 90%;
 }
 /* header */
+/* our-feature */
 main{
   display: flex;
   align-items: center;
@@ -102,11 +103,11 @@ main{
   
 }
 .wrapper{
-display: flex;
-align-items: center;
-justify-content: center;
-gap: 60px;
-width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  width: 90%;
 }
 
 .feature-img{
@@ -115,10 +116,10 @@ width: 90%;
   gap: 24px;
 }
 .feature-img img{
-
+  
 }
 .feature-info{
-
+  
 }
 .feature-info h2{
   color:  #727272;
@@ -133,18 +134,91 @@ width: 90%;
   margin: 24px 0 30px 0;
 }
 .feature-info a{
-
+  
 }
 .of-our{
   color:#131313;
   font-size: 45px;
   font-weight: 700;
- 
+  
 }
 .features{
   color: #FF900E;
   font-size: 45px;
   font-weight: 700;
+  
+}
+/* our-feature */
+/* love-and-enjoy */
+.love-and-enjoy{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 130px;
+}
+.container{
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  width: 90%; */
+}
+.bg-wrapping{
+  background-image: url(images/);
+}
+.experience-info{
+  width: 50%;
+/* margin-top: 20px; */
+padding: 0 0;
 
 }
+.experience{
+
+  
+}
+
+.experience h2{
+  border-left:3px solid #FF900E;
+  padding-left: 20px;
+
+}
+.experience p{
+
+}
+.experience-details{
+border-radius: 8px;
+background: #FFF;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+padding: 30px 40px;
+margin-top: 20px;
+}
+.experience-details h6{
+  color:  #131313;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.experience-details p{
+  color: #727272;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.experience-banner{
+width: 50%;
+}
+.experience-banner img{
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/* love-and-enjoy */
 
