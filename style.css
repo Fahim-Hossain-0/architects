@@ -7,7 +7,6 @@ body {
   font-family: "Work Sans", sans-serif;
 }
 /* header */
-
 header {
   display: flex;
   flex-direction: column;
@@ -39,7 +38,6 @@ nav {
   justify-content: space-between;
   gap: 50px;
 }
-
 .menu li {
   list-style: none;
 }
@@ -69,7 +67,6 @@ nav {
 }
 .common-text {
   color: #727272;
-  /* text-align: center; */
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
@@ -113,7 +110,6 @@ main {
   gap: 60px;
   width: 90%;
 }
-
 .feature-img {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -155,24 +151,12 @@ main {
   justify-content: center;
   margin-top: 130px;
 }
-.container {
-  /* display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 60px;
-  width: 90%; */
-}
-/* .bg-wrapping{
-  background-image: url(images/);
-} */
 .experience-info {
   width: 50%;
-  /* margin-top: 20px; */
   padding: 0 0;
 }
 .experience {
 }
-
 .experience h2 {
   border-left: 3px solid #ff900e;
   padding-left: 10px;
@@ -222,21 +206,11 @@ main {
   justify-content: center;
   margin-top: 100px;
 }
-#box {
-
-}
 .box-wrap{
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 120px;
-}
-.box-1 {
-  /* text-align: center;
-  border-radius: 8px;
-  border: 1px solid #FF900E;
-  padding: 35px 45px; */
-  
 }
 #box{
   text-align: center;
@@ -251,21 +225,17 @@ transition: .3s;
 }
 #box h5{
   color: #424242;
-
   font-size: 45px;
   font-weight: 600;
   margin: 10px 0 0px 0;
-
 }
 #box p{
   color: #727272;
 font-size: 20px;
 font-weight: 600;
 } 
-
 /* box-section */
 /* Sponspors-section */
-
 .Sponspons-section{
   margin-top: 100px;
 }
@@ -278,3 +248,42 @@ font-weight: 600;
   font-weight: 700;
 }
 /* Sponspors-section */
+/* footer-logo */
+.footer-logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+}
+.logos{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 100px;
+}
+.logos img{
+  width: 50%;
+}
+/* footer-logo */
+/* footer */
+footer{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 120px;
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: #FFF4E7;
+  width: 90%;
+  padding: 30px 0;
+}
+.container p{
+  color:  #424242;
+  font-size: 20px;
+  font-weight: 400;
+}
+/* footer */
