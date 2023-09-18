@@ -1,0 +1,63 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) {
+nav{
+    flex-direction: column;
+    width: 100%;
+}
+.header-logo h2{
+    font-size: 40px;
+}
+.header-text h1{
+    font-size: 50px;
+}
+.menu{
+    display: none;
+}
+.wrapper, .box-wrap{
+    flex-direction: column;
+}
+.feature-img{
+    grid-template-columns: repeat(1,1fr);
+}
+.feature-img img,.experience-info,.experience-banner {
+    width: 100%;
+  }
+.feature-info h2 ,.of-our,.features{
+    font-size: 40px;
+}
+.logos{ 
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.logos img{
+    width: 35%;
+}
+.container p{
+    font-size: 12px;
+    text-align: center;
+}
+ }
+ 
+ /* Small devices (landscape phones, 576px and up) */
+ @media (min-width: 576px) and (max-width: 767.98px) {
+     
+ }
+ 
+  /* Medium devices (tablets, 768px and up) */
+ @media (min-width: 768px) and (max-width: 991.98px) {
+ 
+ }
+ 
+ /* Large devices (desktops, 992px and up) */
+ @media (min-width: 992px) and (max-width: 1199.98px) {
+     
+ }
+ 
+  /* Extra large devices (large desktops, 1200px and up) */
+ @media (min-width: 1200px) and (max-width:1399.98px){
+     
+ }
+  /* Extra Extra large devices (large desktops, 1400px and up) */
+ @media (min-width: 1400px) {
+     
+ }
